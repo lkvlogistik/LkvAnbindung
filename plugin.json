@@ -1,5 +1,5 @@
 {
-      "name"                  : "LKV Logistik",
+      "name"                  : "LKVLogistik",
       "marketplaceName"       : [{"en":"LKV Logistik", "de":"LKV Logistik"}],
       "description"           : "Anbindung für LKV Logistik",
       "namespace"             : "LkvAnbindung",
