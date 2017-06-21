@@ -1,0 +1,23 @@
+[
+  {
+    "tab": "General",
+    "key": "ftpserver",
+    "label": "FTP Server",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "tab": "General",
+    "key": "ftpuser",
+    "label": "FTP User",
+    "type": "text",
+    "default": ""
+  },
+  {
+    "tab": "General",
+    "key": "password",
+    "label": "FTP Passwort",
+    "type": "password",
+    "default": ""
+  }
+]
