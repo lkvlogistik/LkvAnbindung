@@ -4,7 +4,7 @@
     "menuEntries": [
         {
             "label": "LKV Logistik",
-            "menu": "start",
+            "menu": "item",
             "urlKey": "lkv-logistik",
             "entryPoint": "index.html"
         }
