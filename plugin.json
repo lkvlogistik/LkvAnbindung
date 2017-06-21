@@ -4,7 +4,7 @@
       "description"           : "Anbindung für LKV Logistik",
       "namespace"             : "LkvAnbindung",
       "author"                : "LKV Logistik GmbH",
-      "type"                  : "shipping",
+      "type"                  : "backend",
       "isClosedSource"        : "False",
       "serviceProvider"       : "LkvAnbindung\\Providers\\LkvAnbindungServiceProvider",
       "version"               : "0.0.1",
