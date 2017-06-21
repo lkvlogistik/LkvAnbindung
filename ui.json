@@ -1,0 +1,12 @@
+{
+    "defaultEntryPoint": "index.html",
+    "namespace": "LkvAnbindung",
+    "menuEntries": [
+        {
+            "label": "LKV Logistik",
+            "menu": "start",
+            "urlKey": "lkv-logistik",
+            "entryPoint": "index.html"
+        }
+    ]
+}
