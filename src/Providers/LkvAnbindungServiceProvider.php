@@ -2,8 +2,10 @@
  
 namespace LkvAnbindung\Providers;
  
- 
 use Plenty\Plugin\ServiceProvider;
+use Plenty\Modules\Cron\Services\CronContainer;
+use Plenty\Modules\EventProcedures\Services\EventProceduresService;
+use Plenty\Log\Services\ReferenceContainer;
  
 class LkvAnbindungServiceProvider extends ServiceProvider
 {
@@ -15,5 +17,9 @@ class LkvAnbindungServiceProvider extends ServiceProvider
     public function register()
     {
  
+    }
+
+    public function boot(CronContainer $container, EventProceduresService $eventProceduresService, ReferenceContainer $referenceContainer) {
+        $container->add(CronContainer::EVERY_FITEEN_MINUTES, )
     }
 }

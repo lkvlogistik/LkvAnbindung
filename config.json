@@ -1,22 +1,8 @@
 [
   {
     "tab": "General",
-    "key": "ftpserver",
-    "label": "FTP Server",
-    "type": "text",
-    "default": ""
-  },
-  {
-    "tab": "General",
-    "key": "ftpuser",
-    "label": "FTP User",
-    "type": "text",
-    "default": ""
-  },
-  {
-    "tab": "General",
-    "key": "password",
-    "label": "FTP Passwort",
+    "key": "lkv_api_key",
+    "label": "LKV API Schlüssel",
     "type": "password",
     "default": ""
   }
