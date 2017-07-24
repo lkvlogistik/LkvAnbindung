@@ -7,7 +7,7 @@
       "type"                  : "backend",
       "isClosedSource"        : "False",
       "serviceProvider"       : "LkvAnbindung\\Providers\\LkvAnbindungServiceProvider",
-      "version"               : "0.0.1",
+      "version"               : "0.0.2",
       "license"               : "proprietary",
       "pluginIcon"            : "icon_plugin_xs.png",
       "price"                 : 0.00,
