@@ -14,7 +14,8 @@ class LkvAnbindungServiceProvider extends ServiceProvider
     use Loggable;
 
     public function boot(CronContainer $container, EventProceduresService $eventProceduresService, ReferenceContainer $referenceContainer) {
+        $this->getLogger('LkvAnbindungServiceProvider_boot')->debug('cron wird angemeldet');
         $container->add(CronContainer::EVERY_FIFTEEN_MINUTES, LkvOrderExport::class);
-        $this->getLogger('LkvAnbindungServiceProvider_boot')->debug('cron angemeldet');
+        $this->getLogger('LkvAnbindungServiceProvider_boot')->debug('cron wurde angemeldet');
     }
 }
