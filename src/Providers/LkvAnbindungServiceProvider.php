@@ -6,7 +6,7 @@ use Plenty\Plugin\ServiceProvider;
 use Plenty\Modules\Cron\Services\CronContainer;
 use Plenty\Modules\EventProcedures\Services\EventProceduresService;
 use Plenty\Log\Services\ReferenceContainer;
-use LkvAnbindung\Crons\LkvOrderExport;
+use LkvAnbindung\Cron\LkvOrderExport;
  
 class LkvAnbindungServiceProvider extends ServiceProvider
 {
@@ -17,7 +17,7 @@ class LkvAnbindungServiceProvider extends ServiceProvider
  
     public function register()
     {
- 
+        $this->getApplication()->register(LkvAnbindungServiceProvider::class);
     }
 
     public function boot(CronContainer $container, EventProceduresService $eventProceduresService, ReferenceContainer $referenceContainer) {

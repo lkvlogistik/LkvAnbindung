@@ -1,6 +1,6 @@
 <?php
 
-namespace LkvAnbindung\Crons;
+namespace LkvAnbindung\Cron;
 
 use Plenty\Modules\Cron\Contracts\CronHandler;
 use Plenty\Plugin\Log\Loggable;
@@ -10,7 +10,7 @@ class LkvOrderExport extends CronHandler {
 
     public function handle()
     {
-        $this->getLogger("LkvOrderExport_handle")->debug('LkvOrderExport', ['running' => 'run']);
+        $this->getLogger('LkvOrderExport_handle')->debug('LkvOrderExport', ['running' => 'run']);
     }
 
 }
