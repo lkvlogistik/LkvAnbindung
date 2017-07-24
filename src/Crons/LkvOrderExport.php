@@ -1,6 +1,6 @@
 <?php
 
-namespace LkvAnbindung\Cron;
+namespace LkvAnbindung\Crons;
 
 use Plenty\Modules\Cron\Contracts\CronHandler;
 use Plenty\Plugin\Log\Loggable;
