@@ -11,11 +11,11 @@ use Plenty\Plugin\Log\Loggable;
  
 class LkvAnbindungServiceProvider extends ServiceProvider
 {
-    use Loggable;
 
-    public function boot(CronContainer $container, EventProceduresService $eventProceduresService, ReferenceContainer $referenceContainer) {
-        die($container);
+    public function boot(CronContainer $container, EventProceduresService $eventProceduresService, ReferenceContainer $referenceContainer) 
+    {
+        // register crons
         $container->add(CronContainer::EVERY_FIFTEEN_MINUTES, LkvOrderExport::class);
-        $this->getLogger('LkvAnbindungServiceProvider_boot')->debug('cron wurde angemeldet');
     }
+
 }

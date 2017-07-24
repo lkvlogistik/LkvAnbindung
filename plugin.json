@@ -1,19 +1,21 @@
 {
-      "name"                  : "LKVLogistik",
-      "marketplaceName"       : {"en":"LKV Logistik", "de":"LKV Logistik"},
-      "description"           : "Anbindung für LKV Logistik",
-      "namespace"             : "LkvAnbindung",
-      "author"                : "LKV Logistik GmbH",
-      "type"                  : "backend",
-      "isClosedSource"        : "False",
-      "serviceProvider"       : "LkvAnbindung\\Providers\\LkvAnbindungServiceProvider",
-      "version"               : "0.0.3",
-      "license"               : "proprietary",
-      "pluginIcon"            : "icon_plugin_xs.png",
-      "price"                 : 0.00,
-      "shortDescription"      : {"en": "Connection to LKV Logistik", "de": "Anbindung für LKV Logistik"},
-      "keywords"              : ["LKV", "logistik", "fullfillment", "plugin", "shipping"],
-      "authorIcon"            : "icon_author_xs.png",
-      "email"                 : "office@lkvlogistik.at",
-      "phone"                 : "+43 6245 20703"
+  "version": "0.0.4",
+  "name": "LKVLogistik",
+  "marketplaceName": {"en":"LKV Logistik", "de":"LKV Logistik"},
+  "description": "Anbindung für LKV Logistik",
+  "namespace": "LkvAnbindung",
+  "pluginIcon": "icon_plugin_xs.png",
+  "author": "LKV Logistik GmbH",
+  "email": "office@lkvlogistik.at",
+  "phone": "+43 6245 20703",
+  "authorIcon": "icon_author_xs.png",
+  "shortDescription": {
+    "de": "Plugin für Anbindung an LKV Logistik.",
+    "en": "Plugin for integrating with LKV Logistics."
+  },
+  "license": "proprietary",
+  "price": 0.00,
+  "type": "general",
+  "keywords": ["LKV", "logistik", "fullfillment", "plugin", "shipping"],
+  "serviceProvider": "LkvAnbindung\\Providers\\LkvAnbindungServiceProvider"
 }
