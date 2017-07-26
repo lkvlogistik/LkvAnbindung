@@ -12,6 +12,10 @@ use Plenty\Plugin\Log\Loggable;
 class LkvAnbindungServiceProvider extends ServiceProvider
 {
 
+    public function register()
+    { 
+    }
+
     public function boot(CronContainer $container, EventProceduresService $eventProceduresService, ReferenceContainer $referenceContainer) 
     {
         // register crons
